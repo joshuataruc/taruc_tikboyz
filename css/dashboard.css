@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+	font-family: "Roboto", sans-serif;
+	-webkit-transition: all .7s ease-in;
+  -moz-transition: all .7s ease-in;
+  -o-transition: all .7s ease-in;
+  -ms-transition: all .7s ease-in;
+  transition: all .7s ease-in;
+  scroll-behavior: smooth;
+}
+.card{
+	border-radius: 5px;
+}
+.border-left-primary{
+	/*border-left-color: #0275d8 !important;
+	border-left-width: 3px;*/
+	border-left: .25rem solid #0275d8 !important
+}
+
+
+.border-left-info{
+	/*border-left-color: #36b9cc !important;
+	border-left-width: 3px;*/
+	border-left: .25rem solid #36b9cc !important
+	 
+}
+
+.border-left-warning{
+	/*border-left-color: #f6c23e !important;
+	border-left-width: 3px;*/
+	border-left: .25rem solid #f6c23e !important
+	 
+}
+.border-left-success{
+	/*border-left-color: #1cc88a !important;
+	border-left-width: 3px;*/
+	border-left: .25rem solid #1cc88a !important
+	 
+
+}
+.icon-color{
+	color: #dddfeb; 
+}
+
+.row a:hover{
+	position: relative; 
+    top: -5px;
+    -webkit-transition: all 1s ease-in !important;
+  -moz-transition: all 1s ease-in !important;
+  -o-transition: all 1s ease-in !important;
+  -ms-transition: all 1s ease-in !important;
+  transition: all 1s ease-in !important;
+  scroll-behavior: smooth !important;
+    
+}
+.data-color{
+	color: #c5c7d2;
+}
